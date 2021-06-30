@@ -117,7 +117,7 @@ public class ClinicaVet {
 
         try {
             inputStream = new ObjectInputStream
-                    (new FileInputStream("c:\\temp\\petStore.dados"));
+                    (new FileInputStream("clinicaVet.dados"));
             Object obj = null;
             while ((obj = inputStream.readObject()) != null) {
                 if (obj instanceof Animal) {

@@ -8,6 +8,5 @@ Trabalho realizado para a disciplina de POO (JAVA) da PUC/PR
 
 - Persistência de objetos 
 - Herança
-- brief 
 - Polimorfismo 
 - Tratamento de exceção

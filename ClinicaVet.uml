@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ClinicaVet</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">ClinicaVet.Animal</node>
+    <node x="366.7822222222223" y="328.0">ClinicaVet.Passaro</node>
+    <node x="665.7822222222222" y="328.0">ClinicaVet.Cavalo</node>
+    <node x="58.78222222222226" y="328.0">ClinicaVet.Cachorro</node>
+    <node x="69.31666666666675" y="592.0">ClinicaVet.ClinicaVet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ClinicaVet.ClinicaVet" target="ClinicaVet.Passaro" relationship="CREATE">
+      <point x="50.39999999999995" y="-139.0" />
+      <point x="245.7166666666667" y="561.0" />
+      <point x="506.2822222222223" y="561.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="ClinicaVet.ClinicaVet" target="ClinicaVet.Animal" relationship="TO_MANY">
+      <point x="-50.40000000000006" y="-139.0" />
+      <point x="144.91666666666669" y="561.0" />
+      <point x="48.28222222222226" y="561.0" />
+      <point x="48.28222222222226" y="308.0" />
+      <point x="101.5" y="308.0" />
+      <point x="1.4210854715202004E-14" y="139.0" />
+    </edge>
+    <edge source="ClinicaVet.Cachorro" target="ClinicaVet.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="202.78222222222226" y="308.0" />
+      <point x="506.28222222222234" y="308.0" />
+      <point x="506.28222222222234" y="298.0" />
+      <point x="169.16666666666669" y="298.0" />
+      <point x="67.66666666666669" y="139.0" />
+    </edge>
+    <edge source="ClinicaVet.Passaro" target="ClinicaVet.Animal" relationship="GENERALIZATION">
+      <point x="5.6843418860808015E-14" y="-106.0" />
+      <point x="506.28222222222234" y="298.0" />
+      <point x="169.16666666666669" y="298.0" />
+      <point x="67.66666666666669" y="139.0" />
+    </edge>
+    <edge source="ClinicaVet.ClinicaVet" target="ClinicaVet.Cavalo" relationship="CREATE">
+      <point x="100.79999999999998" y="-139.0" />
+      <point x="296.11666666666673" y="571.0" />
+      <point x="803.2822222222222" y="571.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="ClinicaVet.Cavalo" target="ClinicaVet.Animal" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="803.2822222222222" y="308.0" />
+      <point x="506.28222222222234" y="308.0" />
+      <point x="506.28222222222234" y="298.0" />
+      <point x="169.16666666666669" y="298.0" />
+      <point x="67.66666666666669" y="139.0" />
+    </edge>
+    <edge source="ClinicaVet.ClinicaVet" target="ClinicaVet.Cachorro" relationship="CREATE">
+      <point x="-2.8421709430404007E-14" y="-139.0" />
+      <point x="195.31666666666672" y="571.0" />
+      <point x="202.78222222222226" y="571.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="ClinicaVet.ClinicaVet" target="ClinicaVet.Animal" relationship="DEPENDENCY">
+      <point x="-100.80000000000007" y="-139.0" />
+      <point x="94.51666666666668" y="571.0" />
+      <point x="37.28222222222226" y="571.0" />
+      <point x="37.28222222222226" y="308.0" />
+      <point x="33.833333333333314" y="308.0" />
+      <point x="-67.66666666666667" y="139.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="441.0" y="431.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
